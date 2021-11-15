@@ -3,8 +3,7 @@ import Home from '../views/Home.vue'
 
 
 const router = createRouter({
-  base: "/jubblier",
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHistory(),
   routes: [
     {
       path: '/',
