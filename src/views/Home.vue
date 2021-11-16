@@ -8,7 +8,7 @@
   </div>
   <contact-button></contact-button>
   <div class = "comms">
-    <img src="../assets/comms.png" alt="comms">
+    <img src="comms.png" alt="comms">
   </div>
   <div class = "rules">
   <div class = "main-information">
