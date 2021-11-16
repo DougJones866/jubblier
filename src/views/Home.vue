@@ -8,7 +8,7 @@
   </div>
   <contact-button></contact-button>
   <div class = "comms">
-    <img src="comms.png" alt="comms">
+    <img src="../assets/comms.png" alt="comms">
   </div>
   <div class = "rules">
   <div class = "main-information">
@@ -36,7 +36,7 @@
   </div>
   <div class = "waitlist">
   <p>If you are on the waitlist, please refer to my Trello before messaging me asking when I will be able to begin work. I keep fairly organized, I won’t forget about you once you’re on the list and will let you know as soon as I’m ready to begin work on your commission!</p>
-  <contact-button></contact-button>
+  
   </div>
 </div>
 </template>
