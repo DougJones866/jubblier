@@ -9,8 +9,8 @@ module.exports = {
     css: {
         sourceMap: true
     },
-    publicPath: '',
+    publicPath: '/',
     //build for docs folder to enable gh-pages hosting
     outputDir: './docs/',
-    assetsDir: 'assets'
+    assetsDir: ''
 }
