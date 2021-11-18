@@ -1,12 +1,20 @@
 <template>
-<div>
+<div class="app">
   <div id="nav">
     <router-link to="/">Home</router-link> 
     <!-- <router-link to="/samples">Commission Samples</router-link> -->
   </div>
+  
   <router-view/>
 </div>
 </template>
+
+<script>
+export default {
+  name: 'app'
+}
+</script>
+
 
 <style>
 body{
