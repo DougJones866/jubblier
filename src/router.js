@@ -15,6 +15,7 @@ const router = createRouter({
     },
     {
         path: "/Samples",
+        name: 'Samples',
         component: Samples,
     }
 ]
