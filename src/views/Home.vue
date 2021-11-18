@@ -11,7 +11,7 @@
     <base-button @click="tumblr" >Tumblr</base-button>
     <base-button @click="twitch">Twitch</base-button>
   <div class = "comms">
-    <img src="../assets/comms.png" alt="comms">
+    <img src="../assets/img/comms.png" alt="comms">
   </div>
   <the-information></the-information>
   
