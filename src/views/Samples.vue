@@ -1,6 +1,7 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <the-nav></the-nav>
+    <h1>This is where samples would go.</h1>
   </div>
 </template>
 

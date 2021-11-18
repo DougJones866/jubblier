@@ -1,45 +1,74 @@
 <template>
-  <div class = "main-button">
-      <button>Home</button>
-      <button>Commission Samples</button>
-  </div>
+  <button v-if="!link" :class="mode">
+    <slot></slot>
+  </button>
+  <router-link v-else :to="to" :class="mode">
+    <slot></slot>
+  </router-link>
 </template>
 
+<script>
+export default {
+  props: {
+    mode: {
+      type: String,
+      required: false,
+      default: null
+    },
+    link: {
+      type: Boolean,
+      required: false,
+      default: false
+    },
+    to: {
+      type: String,
+      required: false,
+      default: '/'
+    }
+  }
+}
+</script>
+
 <style scoped>
-.main-button {
-  display: inline-flex;
-  padding-bottom: 15px;
-  margin: 5px;
-  
-}
 
-
-
-button {
-  background-color: #ff5757;
-  color: #ffffff;
-  width: auto;
-  height: 3rem;
-  line-height: 2.5rem;
-  vertical-align: middle;
-  padding: 0 1.25rem;
-  font-size: 1.5em;
-  border-radius: 2rem;
-  border-style: none;
+button,
+a {
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  font: inherit;
+  background-color: #007499;
+  border: 1px solid #3a0061;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  margin-right: 0.5rem;
+  margin-bottom: 15px;
+  display: inline-block;
   box-shadow: 3px 3px 3px black;
-  max-width: 100%;
-  text-align: center;
-  margin-left: 20px;
   
   
- 
 }
-
-button:hover {
-    background-color: #ff8a00;
-    cursor: pointer;
+a:hover,
+a:active,
+button:hover,
+button:active {
+  background-color: #ff5757;
+  border-color: #270041;
 }
-
-
-
+.flat {
+  background-color: transparent;
+  color: #3a0061;
+  border: none;
+}
+.outline {
+  background-color: transparent;
+  border-color: #270041;
+  color: #270041;
+}
+.flat:hover,
+.flat:active,
+.outline:hover,
+.outline:active {
+  background-color: #edd2ff;
+}
 </style>

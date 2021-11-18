@@ -1,6 +1,7 @@
 <template>
   <header>
-    <base-button></base-button>
+    <base-button link to="/">Home</base-button>
+    <base-button link to="/Samples">Commission Samples</base-button>
   </header>
 </template>
 

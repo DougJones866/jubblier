@@ -1,7 +1,7 @@
 <template>
 <div>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
+    <router-link to="/">Home</router-link> 
     <!-- <router-link to="/samples">Commission Samples</router-link> -->
   </div>
   <router-view/>
@@ -11,6 +11,7 @@
 <style>
 body{
   background-color: #014B5F;
+  box-sizing: border-box;
 }
 
 
@@ -20,6 +21,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  box-sizing: border-box;
   
 }
 
