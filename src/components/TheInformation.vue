@@ -55,6 +55,7 @@ export default {};
   border-radius: 15px;
   padding-left: 50px;
   padding-right: 50px;
+  background-color: #013747;
   
   
 }

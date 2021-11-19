@@ -1,10 +1,8 @@
 <template>
 <div class="app">
-  <div id="nav">
-    <router-link to="/">Home</router-link> 
-    <!-- <router-link to="/samples">Commission Samples</router-link> -->
+  
   <router-view></router-view>
-  </div>
+  
   
 </div>
 </template>
@@ -21,6 +19,17 @@ body{
   background-color: #014B5F;
   box-sizing: border-box;
 }
+
+h1, h2 {
+  color: #ff8a00;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.075rem;
+  width: calc(100% + 0.075rem);
+  font-size: 1.75em;
+  line-height: 1.75;
+  font-weight: 600;
+}
+
 
 
 #app {
