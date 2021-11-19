@@ -4,7 +4,7 @@ import {
 } from "vue-router";
 // import Home from '@/views/Home.vue';
 // import Samples from '@/view/Samples.vue';
-const Home = () => import('./views/Home.vue');
+const JubbyHome = () => import('./views/JubbyHome.vue');
 const Samples = () => import('./views/Samples.vue');
 const NotFound = () => import('./views/NotFound.vue');
 
@@ -14,11 +14,11 @@ const router = createRouter({
     history: createWebHistory(),
     routes: [
         {
-            path: '/', redirect: '/home'
+            path: '/', component: JubbyHome, alias: '/jubblier'
         },
         {
             path: "/home",
-            component: Home,
+            component: JubbyHome,
         },
         {
             path: "/samples",
