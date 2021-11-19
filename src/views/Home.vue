@@ -61,9 +61,6 @@ export default {
   font-weight: 600;
 }
 
-h2{
-
-}
 
 .comms img {
   height: auto;
