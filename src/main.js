@@ -1,9 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
-import TheNav from './components/ui/TheNav.vue'
-import BaseButton from './components/ui/BaseButton.vue'
-import BaseCard from './components/ui/BaseCard.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router.js';
+import TheNav from './components/ui/TheNav.vue';
+import BaseButton from './components/ui/BaseButton.vue';
+import BaseCard from './components/ui/BaseCard.vue';
 
 
 

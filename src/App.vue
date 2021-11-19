@@ -3,9 +3,9 @@
   <div id="nav">
     <router-link to="/">Home</router-link> 
     <!-- <router-link to="/samples">Commission Samples</router-link> -->
+  <router-view></router-view>
   </div>
   
-  <router-view/>
 </div>
 </template>
 
