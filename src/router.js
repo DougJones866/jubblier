@@ -6,6 +6,7 @@ import {
 // import Samples from '@/view/Samples.vue';
 const Home = () => import('./views/Home.vue');
 const Samples = () => import('./views/Samples.vue');
+const NotFound = () => import('./views/NotFound.vue');
 
 
 
@@ -17,13 +18,15 @@ const router = createRouter({
         },
         {
             path: "/home",
-            name: 'Home',
             component: Home,
         },
         {
             path: "/samples",
-            name: 'Samples',
             component: Samples,
+        },
+        {
+            path: '/:notFound(.*)',
+            component: NotFound
         }
     ]
 
