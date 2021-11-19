@@ -7,7 +7,7 @@ import BaseCard from './components/ui/BaseCard.vue';
 
 
 
-const app = createApp(App)
+const app=  createApp(App)
 
 
 

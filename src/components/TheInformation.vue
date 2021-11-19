@@ -4,23 +4,23 @@
   <div class = "main-information">
     <h2>PLEASE HAVE THE FOLLOWING READY BEFORE COMMISSIONING</h2>
     <ul>
-    <li><p><h3>Commission Type</h3>(ie waist-up sketch, fullbody full colour, etc.)</p></li>
-    <li><p><h3>References</h3>Make sure you include reference of anything important you would like drawn.</p></li>
-    <li><p class="notice">-- If there are no complete image references of the character, there will be a design fee. Design fee may vary depending on complexity. This applies to written descriptions and separate reference images (ie. Google images of clothing, hair, etc. Anything I will be piecing together or designing.)</p></li>
-    <li><p><h3>What are the characters like?</h3>Any important personality traits/expressions that you would like depicted? Please keep this short and sweet.</p></li>
-    <li><p><h3>Any specific posing?</h3>Though you can leave this up to me if you don’t have anything specific in mind.</p></li>
-    <li><p><h3>Your email address</h3>I will need this for invoicing.</p></li>
+    <li><h3>Commission Type</h3>(ie waist-up sketch, fullbody full colour, etc.)</li>
+    <li><h3>References</h3>Make sure you include reference of anything important you would like drawn.</li>
+    <li><h5 class="notice">-- If there are no complete image references of the character, there will be a design fee. Design fee may vary depending on complexity. This applies to written descriptions and separate reference images (ie. Google images of clothing, hair, etc. Anything I will be piecing together or designing.)</h5></li>
+    <li><h3>What are the characters like?</h3>Any important personality traits/expressions that you would like depicted? Please keep this short and sweet.</li>
+    <li><h3>Any specific posing?</h3>Though you can leave this up to me if you don’t have anything specific in mind.</li>
+    <li><h3>Your email address</h3>I will need this for invoicing.</li>
     </ul>
   </div>
   <div class = "other-information">
     <h2>Other Important Information</h2>
     <ul>
-    <li><p>Commissions will be paid for through paypal, all prices are in Canadian dollars. <p class="notice2">Paypal’s service fee of 4% will be added to the total cost on the invoice.</p></p></li>
-    <li><p><p class="notice2">Commissions must be paid in full before I begin!</p> If you are in the commission queue, I will not send the invoice until I am one commission away from getting to yours. The only exception would be for particularly large commissions and would only be upon request.</p></li>
-    <li><p class="notice2">There will be no refunds once I have begun drawing!</p></li>
-    <li><p>Depending on the commission, I will send progress shots before I send the completed file! <p class="notice2">Sketches will only have one opportunity for edits.</p></p></li>
-    <li><p>There is a chance I will be streaming work on your commission on my twitch channel! If you do not want this, please let me know ahead of time.</p></li>
-    <li><p class="notice2">If you have any questions, please don't hesitate to ask! I'm happy to help wherever I can!</p></li>
+    <li>Commissions will be paid for through paypal, all prices are in Canadian dollars. <h4 class="notice2">Paypal’s service fee of 4% will be added to the total cost on the invoice.</h4></li>
+    <li><h4 class="notice2">Commissions must be paid in full before I begin!</h4> If you are in the commission queue, I will not send the invoice until I am one commission away from getting to yours. The only exception would be for particularly large commissions and would only be upon request.</li>
+    <li><h4 class="notice2">There will be no refunds once I have begun drawing!</h4></li>
+    <li>on the commission, I will send progress shots before I send the completed file! <h4 class="notice2">Sketches will only have one opportunity for edits.</h4></li>
+    <li>There is a chance I will be streaming work on your commission on my twitch channel! If you do not want this, please let me know ahead of time.</li>
+    <li><h4 class="notice2">If you have any questions, please don't hesitate to ask! I'm happy to help wherever I can!</h4></li>
     </ul>
   </div>
   </div>
@@ -90,6 +90,7 @@ li {
   background-size: contain;
   background-repeat: no-repeat; */
   list-style: none;
+  padding-bottom: 5px;
   /* line-height: 0.984375rem;
   height: 0.984375rem;
   min-width: 0.46142578125rem; */
